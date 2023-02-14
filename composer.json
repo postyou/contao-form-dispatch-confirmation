@@ -7,7 +7,6 @@
         "tag 3",
         "tag 4"
     ],
-    "version": "10.10.10",
     "type": "contao-bundle",
     "license": "GPL-3.0-or-later",
     "authors": [
