@@ -1,0 +1,14 @@
+<div class="overlay form-popup<?= !empty($this->popupText) ? ' fp-active' : '' ?>">
+    <div class="overlay_inside">
+        <div class="overlay-content fp-inner ">
+            <div class="form-popup-desc">
+                <div>
+                    <?= $this->popupText ?>
+                </div>
+            </div>
+            <div class="fp-footer">
+                <a class="success button fp-btn">{{iflng::en}}Close{{iflng::de}}Schließen{{iflng}}</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+{
+    "name": "postyou/contao-form-dispatch-confitmation-bundle",
+    "description": "Confirmation pop-up after form dispatch",
+    "keywords": [
+        "contao",
+        "bundle",
+        "tag 3",
+        "tag 4"
+    ],
+    "type": "contao-bundle",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "PostYou - Mateusz",
+            "email": "mateusz.zoldak@postyou.de",
+            "homepage": "https://postyou.de/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/postyou/contao-form-dispatch-confitmation-bundle/issues",
+        "source": "https://github.com/postyou/contao-form-dispatch-confitmation-bundle"
+    },
+    "require": {
+        "contao/core-bundle": "^4.9"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.3",
+        "contao/test-case": "^4.0",
+        "symfony/http-client": "4.4.*",
+        "symfony/phpunit-bridge": "4.4.*",
+        "friendsofphp/php-cs-fixer": "3.3.1",
+        "phpstan/phpstan": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Postyou\\ContaoFormDispatchConfirmationBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config",
+            "src/Resources/contao/dca",
+            "src/Resources/contao/languages",
+            "src/Resources/contao/templates"
+        ]
+    },
+    "extra": {
+        "contao-manager-plugin": "Postyou\\ContaoFormDispatchConfirmationBundle\\ContaoManager\\Plugin"
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <body>
+    <file>
+      <trans-unit id="tl_form.confirmation_popup">
+        <source>Confirmation Pop-up</source>
+      </trans-unit>
+      <trans-unit id="tl_form.show_popup.0">
+        <source>Show Pop-up after Form was sent</source>
+      </trans-unit>
+      <trans-unit id="tl_form.popup_text.0">
+        <source>Popup text</source>
+      </trans-unit>
+    </file>
+  </body>
+</xliff>
