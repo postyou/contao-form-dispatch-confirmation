@@ -14,7 +14,6 @@ class OutputFrontendTemplateListener
 {
     public function __invoke(string $buffer, string $template): string
     {
-
         if ($template === 'fe_page') {
 
             $session = new Session();

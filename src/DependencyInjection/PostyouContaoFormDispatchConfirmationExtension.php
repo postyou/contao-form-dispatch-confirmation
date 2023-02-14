@@ -20,9 +20,9 @@ use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 /**
- * Class PostyouContaoFormDispatchConfirmation
+ * Class PostyouContaoFormDispatchConfirmationExtension
  */
-class PostyouContaoFormDispatchConfirmation extends Extension
+class PostyouContaoFormDispatchConfirmationExtension extends Extension
 {
 
     /**

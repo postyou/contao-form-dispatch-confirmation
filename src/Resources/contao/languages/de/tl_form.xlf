@@ -11,7 +11,8 @@
         <target>Zeige Formularbestätigung in Popup</target>
       </trans-unit>
       <trans-unit id="tl_form.popup_text.0">
-        <source>Popup Text</source>
+        <source>Popup text</source>
+        <target>Popup Text</target>
       </trans-unit>
     </file>
   </body>

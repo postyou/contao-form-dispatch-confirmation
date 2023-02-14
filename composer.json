@@ -1,5 +1,5 @@
 {
-    "name": "postyou/contao-form-dispatch-confitmation-bundle",
+    "name": "postyou/contao-form-dispatch-confirmation-bundle",
     "description": "Confirmation pop-up after form dispatch",
     "keywords": [
         "contao",
@@ -7,6 +7,7 @@
         "tag 3",
         "tag 4"
     ],
+    "version": "10.10.10",
     "type": "contao-bundle",
     "license": "GPL-3.0-or-later",
     "authors": [
@@ -18,8 +19,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/postyou/contao-form-dispatch-confitmation-bundle/issues",
-        "source": "https://github.com/postyou/contao-form-dispatch-confitmation-bundle"
+        "issues": "https://github.com/postyou/contao-form-dispatch-confirmation-bundle/issues",
+        "source": "https://github.com/postyou/contao-form-dispatch-confirmation-bundle"
     },
     "require": {
         "contao/core-bundle": "^4.9"
