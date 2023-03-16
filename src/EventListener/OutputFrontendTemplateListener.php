@@ -5,6 +5,7 @@ namespace Postyou\ContaoFormDispatchConfirmationBundle\EventListener;
 use Contao\CoreBundle\ServiceAnnotation\Hook;
 use Contao\FormModel;
 use Contao\FrontendTemplate;
+use Contao\System;
 use Symfony\Component\HttpFoundation\Session\Session;
 
 /**
@@ -16,11 +17,11 @@ class OutputFrontendTemplateListener
     {
         if ($template === 'fe_page') {
 
-            $session = new Session();
-            $popup = $session->get('showPopup');
+            $session = System::getContainer()->get('session');
+            $showPopup = $session->get('showPopup');
             $formId = $session->get('formId');
 
-            if ($popup && $formId) {
+            if ($showPopup && $formId) {
                 $session->remove('showPopup');
                 $session->remove('formId');
 
